@@ -44,7 +44,7 @@ def connectToServerThroughTCP():
     tcp_sock.connect((localIP,tcp_port))
 
     try:   
-        # Send data
+        # Send data from client to server
         message = 'Team gal gadot'
         tcp_sock.send(message.encode(unicode_trans))
 
