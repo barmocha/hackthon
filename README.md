@@ -3,8 +3,11 @@ This project is about server and client connection on UDP and TCP protocols
 
 Servers broadcast their announcements with destination port 13117 using UDP.
 There isone packet format used for all UDP communications.
+
 ○ Magic cookie
+
 ○ Message type 
+
 ○ Server port 
 connect to over TCP (the IP address of the server is the same for the UDP and
 TCP connections, so it doesn't need to be sent).
